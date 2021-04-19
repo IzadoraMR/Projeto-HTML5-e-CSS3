@@ -1,123 +1,150 @@
- body {
-     background-color: #F2FFFC;
-     font-family: "crimson text", serif;
-     font-size: 20px;
- }
- 
- body nav {
-     margin-left: 300px;
-     margin-right: 300px;
- }
- 
- main h1 {
-     font-size: 60px;
-     background-color: #483D8B;
-     color: #FAFFFF;
-     text-align: center;
-     font-family: "Open Sans", sans-serif;
-     padding: 20px;
-     margin: 0;
-     text-transform: uppercase;
-     border-bottom: 10px solid #000000;
- }
- 
- h2 {
-     font-size: 40px;
-     font-family: "Open Sans", sans-serif;
-     text-align: left;
-     clear: both;
- }
- 
- p {
-     text-align: justify;
-     margin: 30px 0;
- }
- 
- blockquote {
-     background-color: #B0E0E6;
-     padding: 16px;
-     border: 10px solid #9bccd3;
-     width: 255px;
-     margin: 0;
-     box-sizing: border-box;
-     float: right;
- }
- 
- strong {
-     font-weight: 600;
- }
- 
- em {
-     font-style: italic;
- }
- 
- aside {
-     background-color: #483D8B;
-     color: #F2FFFC;
-     text-align: center;
-     padding: 20px;
-     font-family: "Open Sans Condensed, sans-serif";
-     box-sizing: border-box;
- }
- 
- aside a {
-     color: #F2FFFC;
- }
- 
- .icones li {
-     display: inline-block;
- }
- 
- .icones a {
-     width: 40px;
-     height: 40px;
-     display: inline-block;
-     text-indent: -9999px;
-     margin-top: 10px;
- }
- 
- .Github {
-     background-image: url(imagens/github.png);
- }
- 
- .Linkedin {
-     background-image: url(imagens/linkedin2.png);
- }
- 
- .Twitter {
-     background-image: url(imagens/twitter.png)
- }
- 
- nav h1 {
-     font-size: 30px;
-     margin-bottom: 25px;
- }
- 
- nav a {
-     color: inherit;
- }
- 
- footer {
-     background-color: #000;
-     color: #F2FFFC;
-     padding: 20px;
- }
- 
- .fiat {
-     float: right;
- }
- 
- .petrobras {
-     float: left;
- }
- 
- aside,
- img {
-     float: right;
- }
- 
- aside {
-     clear: right;
- }
- 
- main {}
+body {
+    background-color: #F2FFFC;
+    font-family: "crimson text", "Times New Roman ", serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    font-size: 60px;
+    background-color: #483D8B;
+    color: #FAFFFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 10px solid #000000;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    margin: 30px 0;
+}
+
+blockquote {
+    background-color: #B0E0E6;
+    padding: 16px;
+    border: 10px solid #9bccd3;
+    width: 255px;
+    margin: 0;
+    box-sizing: border-box;
+    float: right;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-style: italic;
+}
+
+aside {
+    background-color: #483D8B;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    box-sizing: border-box;
+    width: 255px;
+}
+
+aside a {
+    color: #F2FFFC;
+}
+
+.icones li {
+    display: inline-block;
+}
+
+.icones a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-top: 10px;
+}
+
+.Github {
+    background-image: url(imagens/github.png);
+}
+
+.Linkedin {
+    background-image: url(imagens/linkedin2.png);
+}
+
+.Twitter {
+    background-image: url(imagens/twitter.png)
+}
+
+.fiat {
+    float: right;
+    margin: 20px 20px 20px 20px;
+}
+
+.petrobras {
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.foto {
+    box-sizing: border-box;
+    border-left: 10px soli black;
+}
+
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: inherit;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+aside,
+img {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10.4px solid rgb(0, 0, 0);
+    border-bottom: 10.4px solid rgb(0, 0, 0);
+    ;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+footer {
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
