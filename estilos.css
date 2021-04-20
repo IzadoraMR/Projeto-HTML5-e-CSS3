@@ -123,7 +123,7 @@ footer {
 }
 
 aside,
-img {
+#imgJoao {
     float: right;
     width: 15%;
     box-sizing: border-box;
@@ -147,4 +147,95 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
+}
+
+
+/*PORTIFÓLIO*/
+
+.portifolio {
+    padding-bottom: 800px;
+}
+
+.BMW {
+    position: relative;
+}
+
+#imagemBMW {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+#textoBMW {
+    position: absolute;
+    font-size: 15px;
+    top: 300px;
+    left: 200px;
+    box-sizing: border-box;
+    float: right;
+    width: 360px;
+    text-align: center;
+}
+
+.UOL {
+    position: relative;
+}
+
+#imagemUOL {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+#textoUOL {
+    position: absolute;
+    font-size: 15px;
+    top: 300px;
+    right: 200px;
+    box-sizing: border-box;
+    float: right;
+    width: 360px;
+    text-align: center;
+}
+
+.IBM {
+    position: relative;
+}
+
+#imagemIBM {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+#textoIBM {
+    position: absolute;
+    font-size: 15px;
+    top: 600px;
+    left: 200px;
+    box-sizing: border-box;
+    float: right;
+    width: 360px;
+    text-align: center;
+}
+
+.G1 {
+    position: relative;
+}
+
+#imagemG1 {
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+#textoG1 {
+    position: absolute;
+    font-size: 15px;
+    top: 600px;
+    right: 200px;
+    box-sizing: border-box;
+    float: right;
+    width: 360px;
+    text-align: center;
 }
